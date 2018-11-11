@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nyheter-Api</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <!--jag har använt container- fluid för att Navbar tar nästan hela bred av hemsida med lite margin-left och margin-right-->
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">HESHKO</a>
+            <!--HESHKO ÄR SOM RUBRIK SOM BBC -->
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Politics <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news-sport">Sport</a>
+                        <!-- här: när man trycker i sport tar direkt till Nyheter-sport "om man vill bara läsa en sport nyheter" -->
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <section class="container">
+            <h1><u>Politics</u></h1>
+            <!--jag gjorde en class= container för att det blir finare-->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <!--här börjar jag min hemsida på 3 bilder med slide-->
+            </div>
+        </section>
+        <br>
+        <section class="container">
+            <div class="card-group">
+                <div class="card" id="new2">
+                    <!-- jag här delat den här stor i 2 div och skriver den i javascript-->
+                </div>
+                <div class="card" id="new3">
+
+                </div>
+            </div>
+            <br>
+            <div class="card" id="new4">
+            </div>
+            <br>
+            <div class="card" id="new5">
+            </div>
+            </div>
+            <br>
+            <div class="card" id="new6">
+            </div>
+            <br>
+            <div class="card mb-3" id="new7">
+            </div>
+        </section>
+
+        <section class="container">
+
+            <h1 id="news-sport" style="display:inline"><u>SPORT</u> </h1>
+            <img src="http://www.surinametimes.com/wp-content/uploads/2016/07/Barcelona-1.png" alt="barcalomna" height="50px"
+                width="50px">
+
+            <!--hela sport-nyheter gjorde jag en section och inner den här section stor div class="row" och inner row gjorde jag en två div samma size col-sm-6 .....  col-sm-6= två delar -->
+            <div class="row" id="sport1">
+            </div>
+        </section>
+
+        <section class="container">
+
+            <div class="row" id="sport2">
+
+            </div>
+        </section>
+
+        <section class="container">
+
+            <div class="row" id="sport3">
+
+            </div>
+        </section>
+
+        <section class="container">
+
+            <div class="row" id="sport4">
+
+            </div>
+
+
+
+    </main>
+    <br>
+    <footer class="container-fluid">
+        <hr>
+
+        <div class="row" id="arrow1">
+            <h1 class="heshko"> &#x2694;GJORDE AV HESHKO 2018&#x2694;</h1>
+            <img class="arrow" src="img/images.png"
+                alt="click">
+        </div>
+        <hr>
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="java/bootstrap.min.js"></script>
+    <script src="java/app.js"></script>
+</body>
+
+</html>

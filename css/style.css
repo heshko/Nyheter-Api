@@ -1,0 +1,67 @@
+body{
+    background-color: #ececec;
+    font-family: inherit;
+    font: bold;
+    
+}
+.navbar{
+    height: 70px;
+    /* LITE HEIHT TILL NAVABR*/
+   background-color: #ececec;
+}
+.nav-link{
+    /*de här linken som sport och politics*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6e276b;
+    margin-left: 20px
+}
+.navbar-brand{
+    /*jag har bytat fonta-family och color till link som finns i NAVBAR*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #6e276b;
+    font-size: 40px
+}
+
+.d-block{
+    /* de bilder som ligger upp första bilder */
+    height: 400px;
+}
+
+.card-img-bottom{
+    /* de bilder som ligger i politics div  */
+    height: 400px;
+    width: 800px;
+}
+
+#img1,#img2,#img3,#img4,#img5{
+    /*jag har bytt size för bilder som finns i div politics */
+    width: 370px;
+    height: 200px;
+}
+.col-sm-6{
+/* jag gjorde border till div som ligger i sport-row*/
+    border: 0.5px solid grey
+}
+
+#sport-img-1,#sport-img-2{
+     /*jag har bytt size för bilder som finns i div sport */
+    width: 385px;
+    height: 200px;
+}
+#arrow1{
+     /*jag gav till bild display: block;
+    text-align: center för att lägga bilder i mitten  */
+    display: block;
+    text-align: center
+}
+.arrow{
+    /*jag har bytt siz för arrow-bild för att ser ut som en fin bild */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#heshko{
+    /*jag gav text till text-align: center för att lägg texten i mitten  */
+    text-align: center;
+}
+
